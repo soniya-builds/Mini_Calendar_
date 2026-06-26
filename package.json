@@ -1,0 +1,24 @@
+{
+  "name": "mini_calendar_",
+  "version": "1.0.0",
+  "description": "A simple desktop calendar app built with HTML, CSS, JavaScript, and ElectronJS. This project is a part of my YouTube tutorial series on building your first Electron application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniya-builds/Mini_Calendar_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/soniya-builds/Mini_Calendar_/issues"
+  },
+  "homepage": "https://github.com/soniya-builds/Mini_Calendar_#readme",
+  "devDependencies": {
+    "electron": "^42.5.0"
+  }
+}
