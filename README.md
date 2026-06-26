@@ -1,18 +1,18 @@
 # Niya's Calendar
 
 <p align="center">
-  <img src="assets/calander.png" alt="Niya's Calendar Preview" width="280">
+  <img src="./assets/calander.png" alt="Niya's Calendar Preview" width="260">
 </p>
 
 <p align="center">
-  <strong>A lightweight desktop calendar application built with HTML, CSS, JavaScript, and ElectronJS.</strong>
+A lightweight desktop calendar application built with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>ElectronJS</strong>.
 </p>
 
 ---
 
 ## Overview
 
-**Niya's Calendar** is a lightweight desktop calendar widget developed using **ElectronJS** and modern web technologies. It displays the current day and month in a clean, pixel-inspired interface with a transparent frameless window.
+Niya's Calendar is a lightweight desktop calendar widget developed using **ElectronJS** and modern web technologies. It displays the current day and month in a clean, pixel-inspired interface with a transparent frameless window.
 
 This project demonstrates the fundamentals of Electron desktop application development while maintaining a minimal and aesthetically pleasing user experience.
 
@@ -28,34 +28,33 @@ This project demonstrates the fundamentals of Electron desktop application devel
 
 ---
 
-## Design Resources
+## Design File
 
-| Resource          | Purpose                                         | Link                                                                                                 |
-| :---------------- | :---------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
-| **Figma Design**  | UI/UX design prototype and layout reference     | https://www.figma.com/design/miTHUYKsC4gGdHz1Nrksoh/Little-Calender?node-id=0-1&t=NYSIKNhCjWoHN7LF-1 |
-| **Preview Image** | Screenshot of the completed desktop application | `assets/calander.png`                                                                                |
+| Resource         | Link                                                                                                 |
+| ---------------- | ---------------------------------------------------------------------------------------------------- |
+| **Figma Design** | https://www.figma.com/design/miTHUYKsC4gGdHz1Nrksoh/Little-Calender?node-id=0-1&t=NYSIKNhCjWoHN7LF-1 |
 
 ---
 
 ## What's in this Repository
 
-| File / Folder       | Purpose                                                   |
-| :------------------ | :-------------------------------------------------------- |
-| `index.html`        | Main HTML layout for the calendar interface               |
-| `styles.css`        | Stylesheet defining the application's appearance          |
-| `script.js`         | Displays and updates the current day and month            |
-| `main.js`           | Electron main process that creates the application window |
-| `package.json`      | Project configuration, scripts, and dependencies          |
-| `package-lock.json` | Automatically generated dependency lock file              |
-| `.gitignore`        | Files and folders ignored by Git                          |
-| `assets/`           | Stores images, backgrounds, and other graphical resources |
-| `LICENSE`           | MIT License for the project                               |
+| File / Folder       | Purpose                                                               |
+| ------------------- | --------------------------------------------------------------------- |
+| `index.html`        | The main HTML layout for the calendar interface                       |
+| `styles.css`        | All styling for the calendar user interface                           |
+| `script.js`         | Handles the calendar logic and dynamically displays the current date  |
+| `main.js`           | Electron main process responsible for creating the application window |
+| `package.json`      | Project metadata, scripts, and dependencies                           |
+| `package-lock.json` | Auto-generated dependency lock file                                   |
+| `.gitignore`        | Specifies files and folders ignored by Git                            |
+| `assets/`           | Stores images and graphical resources used by the application         |
+| `LICENSE`           | MIT License                                                           |
 
 ---
 
 ## How to Use
 
-### 1. Clone This Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/soniya-builds/Niya-s_Calendar_.git
@@ -64,7 +63,7 @@ cd Niya-s_Calendar_
 
 ### 2. Install Dependencies
 
-Make sure you have **Node.js** installed, then run:
+Make sure **Node.js** is installed, then run:
 
 ```bash
 npm install
@@ -78,7 +77,7 @@ This installs Electron and all required project dependencies.
 npm start
 ```
 
-This launches **Niya's Calendar** as a standalone desktop application powered by ElectronJS.
+This launches **Niya's Calendar** as a desktop application powered by ElectronJS.
 
 ---
 
@@ -105,11 +104,14 @@ Niya-s_Calendar_/
 
 ---
 
-## Preview
+## Features
 
-<p align="center">
-  <img src="assets/calander.png" alt="Niya's Calendar Preview" width="300">
-</p>
+* Displays the current day and month
+* Pixel-art inspired interface
+* Transparent frameless Electron window
+* Lightweight desktop widget
+* Built with ElectronJS
+* Clean and minimal user interface
 
 ---
 
@@ -117,9 +119,9 @@ Niya-s_Calendar_/
 
 * Display the current weekday
 * Display the current year
-* Support custom themes
-* Remember window position
+* Custom themes
 * Always-on-top widget mode
+* Remember window position
 * Launch automatically on system startup
 
 ---
@@ -135,4 +137,6 @@ Niya-s_Calendar_/
 
 ## License
 
-This project is licensed under the **MIT License**. See the **LICENSE** file for more information.
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more information.
